@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "configs": [
+    {
+      "title": "豆瓣电影",
+      "urlFormat": "https://search.douban.com/movie/subject_search?search_text=%s",
+      "logo": "https://img1.doubanio.com/cuphead/movie-static/pics/apple-touch-icon.png",
+      "homeUrl": "https://movie.douban.com"
+    },
+    {
+      "title": "Github",
+      "urlFormat": "https://github.com/search?q=%s",
+      "advancedSearch": "https://github.com/search/advanced"
+    },
+    {
+      "title": "Django 5.0",
+      "urlFormat": "https://docs.djangoproject.com/en/5.0/search/?q=%s"
+    },
+    {
+      "title": "pub.dev",
+      "urlFormat": "https://pub.dev/packages?q=%s",
+      "keywords": ["flutter", "dart"]
+    },
+    {
+      "title": "抖音",
+      "urlFormat": "https://www.douyin.com/search/%s"
+    },
+    {
+      "title": "npm",
+      "urlFormat": "https://www.npmjs.com/search?q=%s"
+    },
+    {
+      "title": "bilibili",
+      "urlFormat": "https://search.bilibili.com/all?keyword=%s",
+      "homeUrl": "https://www.bilibili.com/"
+    },
+    {
+      "title": "YouTube",
+      "urlFormat": "https://www.youtube.com/results?search_query=%s"
+    },
+    {
+      "title": "百度",
+      "urlFormat": "https://www.baidu.com/s?wd=%s"
+    },
+    {
+      "title": "Flask 文档",
+      "urlFormat": "https://flask.palletsprojects.com/en/3.0.x/search/?q=%s"
+    },
+    {
+      "title": "Pinterest",
+      "urlFormat": "https://www.pinterest.com/search/pins/?q=%s",
+      "keywords": ["UI", "design"]
+    },
+    {
+      "title": "Dribbble",
+      "urlFormat": "https://dribbble.com/search/%s",
+      "keywords": ["UI", "design"]
+    },
+    {
+      "title": "Google",
+      "urlFormat": "https://www.google.com/search?q=%s",
+      "advancedSearch": "https://www.google.com/advanced_search"
+    },
+    {
+      "title": "Bing",
+      "urlFormat": "https://bing.com/search?q=%s"
+    },
+    {
+      "title": "搜狗搜索",
+      "urlFormat": "https://www.sogou.com/web?query=%s"
+    },
+    {
+      "title": "Emojipedia",
+      "urlFormat": "https://emojipedia.org/search?q=%s"
+    },
+    {
+      "title": "Wikipedia",
+      "urlFormat": "https://en.wikipedia.org/w/index.php?search=%s"
+    },
+    {
+      "title": "dockerhub",
+      "urlFormat": "https://hub.docker.com/search?q=%s"
+    },
+    {
+      "title": "PyPi",
+      "urlFormat": "https://pypi.org/search/?q=%s"
+    },
+    {
+      "title": "Chrome for Developers",
+      "urlFormat": "https://developer.chrome.com/s/results?q=%s"
+    },
+    {
+      "title": "豆瓣读书",
+      "urlFormat": "https://search.douban.com/book/subject_search?search_text=%s",
+      "homeUrl": "https://book.douban.com/"
+    },
+    {
+      "title": "知乎",
+      "urlFormat": "https://www.zhihu.com/search?q=%s"
+    }
+  ]
+}
