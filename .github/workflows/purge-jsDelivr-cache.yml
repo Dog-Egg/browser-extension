@@ -1,0 +1,15 @@
+name: Purge jsDelivr Cache
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "site-search.json"
+      - ".github/workflows/purge-jsDelivr-cache.yml"
+
+jobs:
+  purge-cache:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl https://purge.jsdelivr.net/gh/${{ github.repository_owner }}/${{ github.repository }}@main/site-search.json
