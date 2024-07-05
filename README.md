@@ -4,6 +4,8 @@ If you find this feature useful and are willing to sponsor $5 to help me publish
 
 For now, you can download the extension from [here](https://github.com/Dog-Egg/browser-extension/releases) for local installation.
 
+![screenshot0](./screenshots/0.jpg)
+
 <div style="display: flex;">
   <img src="./screenshots/1.jpg" width="40%">
   <span>&nbsp;</span>
