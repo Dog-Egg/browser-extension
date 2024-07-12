@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "browser-extension-dist/**"
+  workflow_dispatch:
 
 jobs:
   release:
@@ -28,7 +29,7 @@ jobs:
         uses: mathieudutour/github-tag-action@v6.2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          custom_tag: v${{steps.version.outputs.version_name}}
+          custom_tag: ${{steps.version.outputs.version_name}}
 
       - uses: softprops/action-gh-release@v2
         with:
