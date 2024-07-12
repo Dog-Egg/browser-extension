@@ -17,11 +17,19 @@ jobs:
       - uses: actions/checkout@v4
       - run: |
           zip -r browser-extension-dist.zip browser-extension-dist
+
+      - name: Read version name from manifest.json
+        id: version
+        run: |
+          echo "version_name=$(cat browser-extension-dist/manifest.json | jq -r '.version_name')" >> "$GITHUB_OUTPUT"
+
       - name: Bump version and push tag
         id: tag_version
         uses: mathieudutour/github-tag-action@v6.2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          custom_tag: v${{steps.version.outputs.version_name}}
+
       - uses: softprops/action-gh-release@v2
         with:
           files: browser-extension-dist.zip
